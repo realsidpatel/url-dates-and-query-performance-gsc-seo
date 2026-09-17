@@ -1,6 +1,10 @@
 # url-dates-and-query-performance-gsc-seo
 The program extracts the published dates of the provided URLs in its list, and the GSC program will fetch the top 10 queries and organise them by impression metrics in descending order.  It will also mark common queries if it is appearing across multiple URLs.
 
+## Run this first in running in Google Colab:
+```python
+!pip -q install requests beautifulsoup4 openpyxl
+```
 
 ## The following Python program requires a URL list, and it does the following:
 - Checks when the page was created
